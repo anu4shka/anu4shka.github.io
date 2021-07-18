@@ -62,7 +62,7 @@ const daynight=document.querySelector(".theme");
 
 daynight.addEventListener("click",() =>{
   daynight.querySelector("i").classList.toggle("fa-moon");
-  daynight.querySelector("i").classList.toggle("fa-sun");
+  daynight.querySelector("i").classList.toggle("fa-cloud-sun");
   document.body.classList.toggle("light")
 })
 
@@ -71,7 +71,7 @@ window.addEventListener("load",()=>{
     daynight.querySelector("i").classList.add("fa-moon");
   }
   else{
-    daynight.querySelector("i").classList.add("fa-sun");
+    daynight.querySelector("i").classList.add("fa-cloud-sun");
   }
    });
 
