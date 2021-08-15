@@ -390,9 +390,6 @@ z-index: 2;
 .skills-content  .cpp::before{
     width: 60%;
 }
-.skills-content .python::before{
-    width: 40%;
-}
 .skills-content .dbms::before{
     width: 80%;
 }
@@ -406,7 +403,7 @@ z-index: 2;
     width: 80%;
 }
 .skills-content .js::before{
-    width: 50%;
+    width: 40%;
 }
 
 /*trainings*/
